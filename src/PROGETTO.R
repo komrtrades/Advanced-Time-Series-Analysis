@@ -4,8 +4,8 @@ library(gridExtra)
 library(xts)
 
 # # Fetch all available US yield curves from 1 to 30 years
-# source("src/FRED_IMPORT.R")
-load("data/workspace.RData")
+source("src/FRED_IMPORT.R")
+# load("data/workspace.RData")
 
 # # unconditional moments of the series 
 # y1 <- as.vector(y1)
